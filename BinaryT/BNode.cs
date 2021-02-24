@@ -2,17 +2,21 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BinaryTree
+namespace BinaryT
 {
-    public class BNode<T> where T : IComparable
+    public class BNode
     {
         public int item;
-        public BNode<T> right;
-        public BNode<T> left;
+        public BNode right;
+        public BNode left;
 
         public BNode(int item)
         {
             this.item = item;
+        }
+
+        public BNode()
+        {     
         }
     }
 }

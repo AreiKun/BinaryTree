@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BinaryTree
+namespace BinariTree
 {
-    class BTree<T> where T : IComparable
+    class BNode
     {
     }
 }

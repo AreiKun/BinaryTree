@@ -1,8 +1,8 @@
-﻿using System;
+﻿
 using System.Collections.Generic;
 using System.Text;
 
-namespace BinaryTreeSearch
+namespace BinaryT
 {
     class BTree
     {
@@ -33,7 +33,7 @@ namespace BinaryTreeSearch
 
         private bool Add_Sub(BNode Node, int Item)
         {
-            if (_comparer.Compare(Node.right.item, Item) < 0)
+            if (_comparer.Compare(Node.item, Item) < 0)
             {
                 if (Node.right == null)
                 {
@@ -46,7 +46,7 @@ namespace BinaryTreeSearch
                     return Add_Sub(Node.right, Item);
                 }
             }
-            else if (_comparer.Compare(Node.left.item, Item) > 0)
+            else if (_comparer.Compare(Node.item, Item) > 0)
             {
                 if (Node.left == null)
                 {
@@ -65,12 +65,39 @@ namespace BinaryTreeSearch
             }
         }
 
+        public bool AddRight(BNode Node, int Item)
+        {            
+          if (Node.right == null)
+             {
+               Node.right = new BNode(Item);
+               _count++;
+                 return true;
+             }
+          else
+             {
+                return AddLeft(Node.left, Item);
+            }            
+        }
+
+        public bool AddLeft(BNode Node, int Item)
+        {
+            if (Node.left == null)
+            {
+                Node.left = new BNode(Item);
+                _count++;
+                return true;
+            }
+            else
+            {
+                return AddRight(Node.left, Item);
+            }
+        }
+
         public BNode Root { get { return _root; } }
 
         public void Print()
         {
             Root.Print();
         }
-
     }
 }

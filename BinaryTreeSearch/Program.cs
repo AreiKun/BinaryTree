@@ -17,7 +17,7 @@ namespace Tree
             btr.Add(13);
             btr.Add(18);
             btr.Add(27);
-
+            btr.Add(31);
             btr.Print();
         }    
     }

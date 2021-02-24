@@ -3,9 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTreeSearch", "BinaryTreeSearch\BinaryTreeSearch.csproj", "{ABF752F3-6863-4255-9ADC-EDB63F3F4BBA}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree", "BinaryTree\BinaryTree.csproj", "{AB20849D-6405-45A9-AA14-782478E72054}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTreeCiberforum", "BinaryTreeCiberforum\BinaryTreeCiberforum.csproj", "{5CCEF4B0-48E6-4DFB-BA95-7D59930FBF46}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryT", "BinaryT\BinaryT.csproj", "{B9420A41-9994-4697-9A21-FF012F504597}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Training", "Training\Training.csproj", "{92040D07-26F0-439A-A640-2D061E0580D3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BTreeTraining", "BTreeTraining\BTreeTraining.csproj", "{57CF6DA4-699C-40DC-8BCC-B0F35CF02ACC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinariTree", "BinariTree\BinariTree.csproj", "{2022233D-FD15-4930-BE04-A4239EBB1E26}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +21,30 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{ABF752F3-6863-4255-9ADC-EDB63F3F4BBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ABF752F3-6863-4255-9ADC-EDB63F3F4BBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ABF752F3-6863-4255-9ADC-EDB63F3F4BBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ABF752F3-6863-4255-9ADC-EDB63F3F4BBA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AB20849D-6405-45A9-AA14-782478E72054}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AB20849D-6405-45A9-AA14-782478E72054}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB20849D-6405-45A9-AA14-782478E72054}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB20849D-6405-45A9-AA14-782478E72054}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CCEF4B0-48E6-4DFB-BA95-7D59930FBF46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CCEF4B0-48E6-4DFB-BA95-7D59930FBF46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CCEF4B0-48E6-4DFB-BA95-7D59930FBF46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CCEF4B0-48E6-4DFB-BA95-7D59930FBF46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9420A41-9994-4697-9A21-FF012F504597}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9420A41-9994-4697-9A21-FF012F504597}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9420A41-9994-4697-9A21-FF012F504597}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9420A41-9994-4697-9A21-FF012F504597}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92040D07-26F0-439A-A640-2D061E0580D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92040D07-26F0-439A-A640-2D061E0580D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92040D07-26F0-439A-A640-2D061E0580D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92040D07-26F0-439A-A640-2D061E0580D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57CF6DA4-699C-40DC-8BCC-B0F35CF02ACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57CF6DA4-699C-40DC-8BCC-B0F35CF02ACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57CF6DA4-699C-40DC-8BCC-B0F35CF02ACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57CF6DA4-699C-40DC-8BCC-B0F35CF02ACC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2022233D-FD15-4930-BE04-A4239EBB1E26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2022233D-FD15-4930-BE04-A4239EBB1E26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2022233D-FD15-4930-BE04-A4239EBB1E26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2022233D-FD15-4930-BE04-A4239EBB1E26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
