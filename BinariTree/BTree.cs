@@ -5,7 +5,7 @@ namespace BinariTree
     public class BTree<T> where T : IComparable
     {
         
-        private BNode<T> RootNode;
+        private BNode<int> RootNode;
         private int count;        
 
         public BTree()
@@ -14,24 +14,18 @@ namespace BinariTree
             count = 0;
         }
 
-        public bool Add(BNode<T> bNode)
+        public bool Add(BNode<int> bNode)
         {
             RootNode = bNode;
             count++;
             return true;
         }
 
-        public void InsertRight(BNode<T> node, T data)
-        {
-            node.RightNode = new BNode<T>(data);
-            count++;
-            
-        }
+        public BNode<int> Root { get { return RootNode; } }
 
-        public void InsertLeft(BNode<T> node, T data)
+        public void Print()
         {
-            node.LeftNode = new BNode<T>(data);
-            count++;
+            Root.Print();
         }
 
     }

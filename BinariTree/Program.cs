@@ -17,14 +17,14 @@ namespace BinariTree
             var secondLeftLevelLeftNode = new BNode<int>(333);
 
 
-            firstLevelLeftNode.LeftNode = secondLeftLevelLeftNode;
-            firstLevelLeftNode.RightNode = secondLeftLevelRightNode;
-            firstLevelRightNode.LeftNode = secondRightLevelLeftNode;
-            firstLevelRightNode.RightNode = secondRightLevelRightNode;
-            root.RightNode = firstLevelRightNode;
-            root.LeftNode = firstLevelLeftNode;
+            firstLevelLeftNode.left = secondLeftLevelLeftNode;
+            firstLevelLeftNode.right = secondLeftLevelRightNode;
+            firstLevelRightNode.left = secondRightLevelLeftNode;
+            firstLevelRightNode.right = secondRightLevelRightNode;
+            root.right = firstLevelRightNode;
+            root.left = firstLevelLeftNode;
             btr.Add(root);
-
+            btr.Print();
         }
     }
 }

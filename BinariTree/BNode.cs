@@ -14,9 +14,9 @@ namespace BinariTree
                 
         public T Data { get; set; }
       
-        public BNode<T> LeftNode { get; set; }
+        public BNode<T> left { get; set; }
         
-        public BNode<T> RightNode { get; set; }       
+        public BNode<T> right { get; set; }       
        
     }
 }
