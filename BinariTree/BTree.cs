@@ -6,7 +6,7 @@ namespace BinariTree
     {
         
         private BNode<T> RootNode;
-        private int count;
+        private int count;        
 
         public BTree()
         {
@@ -14,9 +14,9 @@ namespace BinariTree
             count = 0;
         }
 
-        public bool Add(T data)
+        public bool Add(BNode<T> bNode)
         {
-            RootNode = new BNode<T>(data);
+            RootNode = bNode;
             count++;
             return true;
         }

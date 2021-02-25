@@ -27,7 +27,7 @@ namespace BTreeTraining
             {
                 if(node.CompareTo(current) == -1)
                 {
-                    if(current.Left = null)
+                    //if(current.Left = null)
                     {
 
                     }
